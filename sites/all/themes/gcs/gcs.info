@@ -1,0 +1,19 @@
+; $Id: 
+name = GCS
+description = Bespoke fixed width 3 column grid based theme.
+version = VERSION
+core = 6.x
+engine = phptemplate
+
+regions[highlight] = Highlight
+regions[top] = Top
+regions[header] = Header
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[content_top] = Above content
+regions[content_bottom] = Below content
+regions[footer] = Footer
+stylesheets[all][] = style.css
+stylesheets[all][] = reset.css
+stylesheets[all][] = main.css
+stylesheets[all][] = jquery-ui-1.8.2.custom.css
