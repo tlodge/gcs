@@ -314,15 +314,15 @@ ul.ul-list span.date {
 
 #cols2 #col-left {
     float: left;
-    width: 595px;
+    width: 700px;
     padding: 5px 20px 20px 20px;
 }
 
 #cols2 #col-right {
     float: right;
-    width: 268px;
+    width: 208px;
     margin-right: 1px;
-    padding: 5px 20px 20px 20px;
+    padding: 5px 5px 20px 5px;
 }
 
 #cols2 #col-left h4, #cols2 #col-right h4 {
@@ -340,11 +340,11 @@ ul.ul-list span.date {
 }
 
 #cols2 #col-left .title span {
-    padding-left: 10px;
+    padding-left: 0px;
 }
 
 #cols2 .box {
-    margin-top: 15px;
+    margin-top: 0px;
 }
 
 
@@ -644,6 +644,25 @@ ul .right{
 
 
 
+img.newsthumb{
+	float:left;
+	padding:0px 5px 0px 0px;
+}
 
+ .news {margin:0;}
+    .news dt {display:block; float:left; width:50px; font-weight:bold; text-align:center; line-height:1.2;}
+    .news dt span {font-size:140%;}
+    .news dd {display:block; float:left; width:140px; font-size:85%; line-height:1.6;}
+	.news dt {color:#990033;}
+    .news dd span {color:#5f5f5f;}
 
-
+.box-01-top, .box-01-top-b {background-color:#ddddd4; color:#000;}
+.box-01-top-b .f-right {color:#808065;}
+.box-01 .bg {margin-left:-10px; border-top:1px solid #ddddd4; border-bottom:1px solid #ddddd4; background:#f1f1ee;}
+.box-01-top {width:200px; height:5px; margin-top:5px; background:url("design/box-01-top.gif") 0 0 no-repeat; font-size:0; line-height:0;}
+.box-01-top-b {padding:5px 0px 15px 0px; background:url("design/box-01-top-b.gif") 0 100% no-repeat;}
+.box-01-top-b .f-left {text-transform:uppercase;}
+.box-01-top-b .f-right {padding-top:2px; font-size:85%;}
+.box-01-bottom {width:210px; height:11px; background:url("design/box-01-bottom.gif") 0 0 no-repeat; font-size:0; line-height:0;}
+.box-01 {padding:0px; background:url("design/box-01.gif") 0 0 repeat-y;}
+.box-01 .bg {margin:10px 0; padding:10px 0;}

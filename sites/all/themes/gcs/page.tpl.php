@@ -164,6 +164,7 @@
             <!-- /footer -->
         </div>
         <!-- /main -->
+        <?php print $closure?>
     </body>
 </html>
 
