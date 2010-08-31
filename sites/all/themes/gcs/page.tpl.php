@@ -20,6 +20,16 @@
                    <?php if (isset($secondary_links)) { ?><?php print theme('links', $secondary_links, array('class' => 'links', 'id' => 'subnavlist')) ?><?php } ?>
                 </div><!-- /nav -->
             </div>
+            
+          
+            <?php if ($top) { ?>
+            	<div id="col-top"></div>
+            	<div id="col" class="box">
+            		<?php print $top?>
+            	</div><!-- /col -->
+      			<div id="col-bottom"></div>
+             <?php } ?>
+            
             <!-- /header --><!-- Tray -->
             <div id="tray">
              	<?php if (isset($primary_links)) { ?><?php print theme('links', $primary_links, array('class' => 'links', 'id' => 'navlist')) ?><?php } ?>
@@ -38,14 +48,6 @@
                     </form>
                 </div><!-- /search --><hr class="noscreen" />
             </div><!-- /tray --><!-- Promo -->
-          
-            <?php if ($top) { ?>
-            	<div id="col-top"></div>
-            	<div id="col" class="box">
-            		<?php print $top?>
-            	</div><!-- /col -->
-      			<div id="col-bottom"></div>
-             <?php } ?>
             
             <hr class="noscreen" /><!-- 2 columns -->
             <div id="cols2-top">
