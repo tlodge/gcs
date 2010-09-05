@@ -33,7 +33,7 @@ h2, h3 {
 }
 
 h1, h4, h5, h6, p, address, blockquote, table, dl, fieldset {
-    margin: 15px 0;
+    margin: 5px 0;
 }
 
 
@@ -94,12 +94,15 @@ ul.ul-list span.date {
 
 #header {
     position: relative;
-    height: 90px;
-    padding: 30px 20px 25px 20px;
+    height: 50px;
+    padding: 20px 20px 35px 20px;
+	float:left;
+	width:200px;
 }
 
 #logo {
     margin: 0;
+	width:100px;
 }
 
 #nav {
@@ -120,7 +123,9 @@ ul.ul-list span.date {
 
 #tray {
     position: relative;
-    width: 960px;
+    width: 720px;
+	margin-top:48px;
+	float:left;
     height: 45px;
     background: url("design/tray.gif") 0 0 no-repeat;
     overflow: hidden;
@@ -222,7 +227,7 @@ ul.ul-list span.date {
 
 #col {
     position: relative;
-    padding: 15px 30px 15px 20px;
+    padding: 5px 30px 5px 10px;
     background: url("design/col.gif") 0 0 repeat-y;
 }
 
@@ -241,23 +246,22 @@ ul.ul-list span.date {
 
 #col-browser {
     position: relative;
-    top: -30px;
+    top: 0px;
     float: left;
-    width: 480px;
+    width: 440px;
     height: 215px;
     /* background: url("../design/browser.gif") 0 0 no-repeat;*/
 }
 
 #col-browser img {
     position: absolute;
-    top: 28px;
+    top: 0px;
     left: 10px;
 }
 
 #col-text {
-    float: right;
-    width: 430px;
-    padding-top: 15px;
+    float: left;
+    width: 470px;
     line-height: 1.7;
 }
 
@@ -501,7 +505,7 @@ ul.ul-list span.date {
 ul.slideshow {
     list-style: none;
     width: 450px;
-    height: 250px;
+    height: 210px;
     overflow: hidden;
     position: relative;
     margin: 0;
@@ -666,7 +670,7 @@ img.newsthumb {
 }
 
 .news dt {
-    color: #990033;
+    color: #f26328;
 }
 
 .news dd span {

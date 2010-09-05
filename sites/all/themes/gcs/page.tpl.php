@@ -16,12 +16,30 @@
             <!-- Header -->
             <div id="header">
                 <h1 id="logo"><a href="./" title="[Go to homepage]"><img src="/sites/all/themes/gcs/tmp/logo.png" alt="" /></a></h1><hr class="noscreen" /><!-- Navigation -->
-                <div id="nav">
-                   <?php if (isset($secondary_links)) { ?><?php print theme('links', $secondary_links, array('class' => 'links', 'id' => 'subnavlist')) ?><?php } ?>
-                </div><!-- /nav -->
+                
             </div>
             
-          
+           <!-- /header --><!-- Tray -->
+            <div id="tray">
+             	<?php if (isset($primary_links)) { ?><?php print theme('links', $primary_links, array('class' => 'links', 'id' => 'navlist')) ?><?php } ?>
+                <!-- Search -->
+                <!-- <div id="search" class="box">
+                    <form action="#" method="get">
+                        <div class="box">
+                             <div id="search-input">
+                                <span class="noscreen">Search:</span>
+                                <input type="text" size="30" name="" value="Search" />
+                            </div>
+                              <div id="search-submit">
+                                <input type="image" src="/sites/all/themes/gcs/design/search-submit.gif" value="OK" />
+                            </div>
+                        </div>
+                    </form>
+                </div>--><!-- /search -->
+                
+                <hr class="noscreen" />
+            </div><!-- /tray --><!-- Promo -->
+            
             <?php if ($top) { ?>
             	<div id="col-top"></div>
             	<div id="col" class="box">
@@ -30,25 +48,7 @@
       			<div id="col-bottom"></div>
              <?php } ?>
             
-            <!-- /header --><!-- Tray -->
-            <div id="tray">
-             	<?php if (isset($primary_links)) { ?><?php print theme('links', $primary_links, array('class' => 'links', 'id' => 'navlist')) ?><?php } ?>
-                <!-- Search -->
-                <div id="search" class="box">
-                    <form action="#" method="get">
-                        <div class="box">
-                            <div id="search-input">
-                                <span class="noscreen">Search:</span>
-                                <input type="text" size="30" name="" value="Search" />
-                            </div>
-                            <div id="search-submit">
-                                <input type="image" src="/sites/all/themes/gcs/design/search-submit.gif" value="OK" />
-                            </div>
-                        </div>
-                    </form>
-                </div><!-- /search --><hr class="noscreen" />
-            </div><!-- /tray --><!-- Promo -->
-            
+           
             <hr class="noscreen" /><!-- 2 columns -->
             <div id="cols2-top">
             	 
