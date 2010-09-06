@@ -62,7 +62,16 @@ font-size:16px;
 margin-bottom:5px;
 }
 
+h3 {
+border-bottom:1px solid #EEEEEE;
+font-size:1.5em;
+margin:0 0 0.8em;
+}
+.red {
+color:#9D2900;
+}
 p{
+	margin-top:10px;
 	/*margin: 0px;*/
 }
 /*
