@@ -21,12 +21,51 @@
 /* ----------------------------------------------------------------------------------------------------------
  1) HTML tags
 ---------------------------------------------------------------------------------------------------------- */
-
 body {
-	background: url("design/bg.gif") 0 0 repeat-x;
-	font: 0.8em / 1.5 "Lucida Grande","Lucida Sans Unicode",arial,sans-serif;
+background: url("design/bg.gif") 0 0 repeat-x;
+color:#454545;
+font:0.8em/1.5em Arial,sans-serif;
+line-height:180%;
+margin:0;
+padding:0;
 }
 
+/*
+body {
+	
+	font: 0.8em / 1.5 "Lucida Grande","Lucida Sans Unicode",arial,sans-serif;
+}*/
+
+h1 {
+font:bold 2em Arial,Sans-Serif;
+letter-spacing:-1px;
+margin:0;
+padding:7px 0 5px 0px;
+}
+h1 a, h2 a {
+text-decoration:none;
+}
+h1 a:hover, h2 a:hover {
+background:none repeat scroll 0 0 #FFFFFF;
+color:#FF6600;
+}
+h2 {
+font:bold 1.7em Arial,Sans-Serif;
+letter-spacing:-1px;
+margin:0;
+padding:5px 0px 0px 0px;
+}
+h2 {
+background:inherit;
+color:#000000;
+font-size:16px;
+margin-bottom:5px;
+}
+
+p{
+	/*margin: 0px;*/
+}
+/*
 h2, h3 {
 	font-family:Candara,georgia,serif;
 	margin:15px 0;
@@ -34,11 +73,17 @@ h2, h3 {
 
 h1, h4, h5, h6, p, address, blockquote, table, dl, fieldset {
     margin: 5px 0;
-}
+}*/
 
 
 img.photoleft {
     float: left;
+    display: inline;
+    padding: 5px 30px 5px 0px;
+}
+
+img.photoright {
+    float: right;
     display: inline;
     padding: 10px 10px 10px 0px;
 }
@@ -95,7 +140,7 @@ ul.ul-list span.date {
 #header {
     position: relative;
     height: 50px;
-    padding: 20px 20px 35px 20px;
+    padding: 20px 20px 45px 20px;
 	float:left;
 	width:200px;
 }
@@ -227,7 +272,7 @@ ul.ul-list span.date {
 
 #col {
     position: relative;
-    padding: 5px 30px 5px 10px;
+    padding: 5px 10px 5px 10px;
     background: url("design/col.gif") 0 0 repeat-y;
 }
 
@@ -261,8 +306,12 @@ ul.ul-list span.date {
 
 #col-text {
     float: left;
-    width: 470px;
+    width: 490px;
+	height:210px;
     line-height: 1.7;
+	/*background: #fff;*/
+	padding:5px;
+	/*background:url("design/col.gif") repeat-y scroll 0 0 ;*/
 }
 
 #slogan {
@@ -315,7 +364,7 @@ ul.ul-list span.date {
 #cols2 {
     background: url("design/cols2.gif") 0 0 repeat-y;
 }
-
+/*
 #cols2 h1 {
     font-size: 100%;
     display: block;
@@ -328,7 +377,7 @@ ul.ul-list span.date {
     display: block;
     padding: 5px;
 }
-
+*/
 #cols2 #col-left {
     float: left;
     width: 700px;
